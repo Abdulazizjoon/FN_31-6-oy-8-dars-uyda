@@ -4,7 +4,7 @@ import User from './components/mashq2'
 function App() {
   return (
     <div className='conteiner'>
-      {/* <Todo /> */}
+      <Todo />
       <User />
     </div>
   )
