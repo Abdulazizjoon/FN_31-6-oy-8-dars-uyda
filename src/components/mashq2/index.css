@@ -1,0 +1,47 @@
+.form1 input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form1 input:focus {
+  border-color: #4a90e2;
+}
+
+.card {
+  width: 300px;
+  padding: 15px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
+button{
+    background-color: #4a90e2;
+    border: none;
+    /* padding: 10px; */
+    height: 30px;
+}
+
+
+.cards-flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
