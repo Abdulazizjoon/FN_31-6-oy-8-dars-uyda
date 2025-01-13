@@ -25,11 +25,11 @@ function User() {
     if (age.length < 1) {
       alert("yoshingizni kiriting");
       return;
-      }
-      if (img.length<5) {
-        alert("url manzil notgri");
-          return
-      }
+    }
+    if (!img) {
+      alert("imgni kiriting");
+      return;
+    }
     let user = {
       name: name,
       email: email,
@@ -90,6 +90,7 @@ function User() {
             setimg(e.target.value);
           }}
         />
+
         <button onClick={btn}>save</button>
       </form>
       <div className="cards-flex">
